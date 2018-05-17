@@ -4,7 +4,7 @@ import javax.ws.rs.Path;
 
 @Path("/")
 public class HelloService {
-	@Path("Hello")
+	@Path("")
 	public String doHello() {
 		return "Hello, World";
 	}
