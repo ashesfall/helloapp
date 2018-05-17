@@ -10,8 +10,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - ls ./src/test/java
       - mvn -DskipTests package
+      - ls ./target/classes
   post_build:
     commands:
       - echo Build completed on `date`
