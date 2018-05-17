@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn -DskipTests package
-      - ls ./target/
+      - zip -cvf output.zip ./pom.xml ./src ./target
   post_build:
     commands:
       - echo Build completed on `date`
