@@ -1,5 +1,6 @@
 import junit.framework.TestCase;
 import org.junit.Test;
+import webservices.HelloService;
 
 public class HelloTest extends TestCase {
 	@Test
