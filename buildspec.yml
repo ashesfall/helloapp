@@ -11,10 +11,10 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn -DskipTests package
-      - zip output.zip ./*
+      - tar -cvf output.tar ./*
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - ./output.zip
+    - ./output.tar
