@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - ls ./
-      - mvn package
+      - mvn -DskipTests package
   post_build:
     commands:
       - echo Build completed on `date`
