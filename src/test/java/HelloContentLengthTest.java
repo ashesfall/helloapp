@@ -2,9 +2,9 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import webservices.HelloService;
 
-public class HelloContentLengthTest  extends TestCase {
+public class HelloContentLengthTest {
 	@Test
 	public void runTest() {
-		assertEquals(new HelloService().doHello().length(), 12);
+		TestCase.assertEquals(new HelloService().doHello().length(), 12);
 	}
 }

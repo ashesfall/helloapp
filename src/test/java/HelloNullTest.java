@@ -2,9 +2,9 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import webservices.HelloService;
 
-public class HelloNullTest extends TestCase {
+public class HelloNullTest {
 	@Test
 	public void runTest() {
-		assertNotNull(new HelloService().doHello());
+		TestCase.assertNotNull(new HelloService().doHello());
 	}
 }
