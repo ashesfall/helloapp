@@ -17,5 +17,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - ./output.tar
     - ./target/HelloApp-0.0.1-SNAPSHOT.war
