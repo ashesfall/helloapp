@@ -8,6 +8,6 @@ public class HelloService {
 	@Path("/hello")
 	@GET
 	public String doHello() {
-		return "Hello, World";
+		return "Hello, World!";
 	}
 }
